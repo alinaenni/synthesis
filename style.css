@@ -1,0 +1,259 @@
+/* Background patterns from Toptal Subtle Patterns */
+
+body {
+  background-image:url('colors.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-color: #aaa;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.this {
+  display: none;
+}
+.contentbox a {
+  color: #ad651d;
+  font-weight: bold;
+  text-decoration: none;
+}
+.contentbox a:hover {
+  text-decoration: underline;
+  color: #ad651d;
+}
+.collapse {
+  padding: 0px;
+}
+.show {
+  padding: 0px;
+}
+.surround {
+  padding: 0px;
+  background: transparent;
+  box-sizing: border-box;
+  left: 0;
+}
+.content-section {
+  text-align: justify;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.contentbox {
+  background-color: rgba(255,255,255,0.6);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 33px;
+  color: #000;
+  margin-right: 0px;
+  font-weight: normal;
+}
+.contentbox.new {
+  margin-top: 40px;
+}
+.bottom {
+  align-items: center;
+}
+table {
+  width: 100%;
+}
+th {
+  font-weight: normal;
+}
+td {
+  width: 33%;
+}
+article {
+  background: transparent;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.title-box {
+  text-align: center;
+  padding: 70px;
+  box-sizing: border-box;
+}
+.title-box h1 {
+  font-family: 'Arial';
+  color: #000;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-weight: normal;
+}
+.content-section h1 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: none;
+  font-family: 'Arial';
+  color: #000;
+  text-align: center;
+}
+.content-section h3 {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Arial';
+  text-align: center;
+}
+.content-section h4 {
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #ad651d;
+}
+h1 a {
+  color: #ad651d;
+  text-decoration: none;
+}
+h1 a:hover {
+  color: #ad651d;
+}
+h4 a {
+  color: #ad651d;
+  text-decoration: underline;
+}
+h4 a:hover {
+  color: #ad651d;
+  text-decoration: underline;
+}
+footer {
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  color: #5e5e5e;
+  text-align: left;
+  padding: 35px 0px 35px 50px;
+  bottom: 0;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+footer a {
+  color: #5e5e5e;
+}
+footer a:hover {
+  color: #5e5e5e;
+}
+.contentbox.new.some h1 {
+  color: #c2b6ba;
+}
+.mobile {
+  display: none;
+  width: 0px;
+}
+.mob {
+  display: none;
+}
+#wrapper {
+  width: 100%;
+  color: #000;
+  margin: 20px auto;
+}
+.data-container {
+  margin-top: 20px;
+}
+.data-container ul {
+  padding: 0;
+  margin: 0;
+}
+.data-container li {
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #eee;
+  color: #666;
+}
+@media only screen and (max-width: 768px) {
+.mobile {
+    background-color: rgba(0,0,0,0.8);
+    display: block;
+    width: 100%;
+    height: 7%;
+    padding: 0.5% 0px 0px 2.5%;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+  .mob {
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    top: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+  }
+  .mob ul {
+    background-color: rgba(184,166,138,0.7);
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .mob li {
+    display: inline-block;
+    margin: 0px;
+    padding: 20px;
+    width: 33%;
+  }
+  .mob a {
+    color: #573a1f;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  .mob a:hover {
+    text-decoration: none;
+  }
+  li.normal {
+    border-bottom:1px solid rgba(255,255,255,0.05);
+  }
+  .contentbox {
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .contentbox.new {
+    margin-top: 5vh;
+  }
+  .content-section {
+    padding: 0 0 5vh 0;
+  }
+  .title-box {
+    text-align: center;
+    padding: 15vh 0 15vh 0;
+    box-sizing: border-box;
+  }
+  .title-box h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .title-box h2 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .sidebar-section {
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+  }
+  footer {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    bottom: 0px;
+    position: relative;
+  }
+}
