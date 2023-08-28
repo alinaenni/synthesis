@@ -186,7 +186,7 @@ footer a:hover {
   background: #eee;
   color: #666;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 992px) {
 .mobile {
     background-color: rgba(0,0,0,0.8);
     display: block;
